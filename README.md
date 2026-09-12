@@ -58,8 +58,11 @@ The fine convention is defined for LIBERO-Object only; LIBERO-10 episodes are
 multi-object and multi-stage, and the fine decomposition was not specified for
 them, so there are deliberately no `_S_` files under `libero_10/`.
 
-Annotators are identified only as **Human1**, **Human2**, **Human3**. No real
-names appear anywhere in this repository.
+Inside the data files and manifests the annotators are identified only as
+**Human1**, **Human2** and **Human3**. The codes exist so that scoring stays
+blind to who produced which labels, not to withhold credit: the annotators are
+named in *Credits* below and in the dataset citation, and the mapping between
+code and person is deliberately not published.
 
 Annotations on an internal real-robot corpus exist but are **not** released
 here, because that corpus mixes several upstream datasets with incompatible
@@ -330,14 +333,35 @@ so no keys were added or removed to harmonise them. Read `annotator` and
 
 ## Citation
 
+If you use these annotations, cite the dataset:
+
 ```bibtex
-@misc{hahn2026l24,
-  title  = {A Three-Layer Action Ontology and Measurement Protocol
-            for Robot Subtask Boundaries},
-  author = {Hahn, Elin and others},
+@misc{l24annotations2026,
+  title  = {LIBERO Subtask Boundary Annotations (L24):
+            three annotators, two segmentation conventions},
+  author = {An, Hyeyoung and Bae, Yoosung and Han, Hyonyoung},
   year   = {2026},
-  note   = {Annotation data: https://github.com/ElinHAhn/subtask-boundary-annotations}
+  url    = {https://github.com/ElinHAhn/subtask-boundary-annotations}
 }
 ```
 
+The annotations are the work of the three annotators named above. Inside the
+data files they appear as `Human1`, `Human2` and `Human3` — the codes keep
+scoring blind to who produced which labels, and the mapping from code to person
+is deliberately not published, so that no individual's agreement score is
+attributable. See *Credits* below.
+
+The accompanying paper (in preparation) describes the ontology and the
+measurement protocol; it will be listed here once published.
+
 Please cite LIBERO as well; see [`ATTRIBUTION.md`](ATTRIBUTION.md).
+
+---
+
+## Credits
+
+**Annotation:** Hyeyoung An, Yoosung Bae, Hyonyoung Han.
+
+Each annotated the same 60 LIBERO episodes under the absorb convention and the
+same 30 LIBERO-Object episodes under the fine convention — 90 episodes each,
+independently, without seeing one another's work.
