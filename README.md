@@ -30,29 +30,16 @@ Upstream attribution is in [`ATTRIBUTION.md`](ATTRIBUTION.md).
 
 ## Coverage
 
-**absorb = 60 episodes × 3 annotators = 180 files, less 1 quarantined = 179.
+**absorb = 60 episodes × 3 annotators = 180 files.
 fine = 30 LIBERO-Object episodes × 3 annotators = 90 files.
-269 annotation files are shipped under `annotations/`** (270 were collected; one
-was quarantined — see *Known defects*).
+270 annotation files in total**, with no missing annotator/convention/episode
+cell.
 
-| Episode set | Episodes | absorb | fine | Annotators | Shipped files |
+| Episode set | Episodes | absorb | fine | Annotators | Files |
 |---|---|---|---|---|---|
 | LIBERO-Object | 30 | yes | yes | Human1, Human2, Human3 | 30 × 3 × 2 = 180 |
-| LIBERO-10 | 30 | yes | — (convention not defined) | Human1, Human2, Human3 | 30 × 3 − 1 = 89 |
-| **Total** | **60** | **179** | **90** | **3** | **269** |
-
-**There is exactly one gap, and it is not an unlabelled episode.** The
-LIBERO-10 **Human2 absorb** cell covers **29 of 30 episodes**: the file for
-episode `b24fe5969a0d37b2cbdd637ad59cc19d` (task
-`turn_on_the_stove_and_put_the_moka_pot_on_it`) is wrong-episode data and has
-been quarantined to [`known_bad/`](known_bad/README.md). Every other
-annotator × convention × episode cell is present. Annotators did submit all 270
-files; 269 are usable.
-
-| Cell | Expected | Present |
-|---|---|---|
-| LIBERO-10 absorb, Human2 | 30 | **29** |
-| all other cells | — | complete |
+| LIBERO-10 | 30 | yes | — (convention not defined) | Human1, Human2, Human3 | 30 × 3 = 90 |
+| **Total** | **60** | **180** | **90** | **3** | **270** |
 
 The fine convention is defined for LIBERO-Object only; LIBERO-10 episodes are
 multi-object and multi-stage, and the fine decomposition was not specified for
@@ -84,7 +71,7 @@ LICENSE                 MIT (code)
 LICENSE-DATA            CC BY 4.0 (annotations, manifests, ontology)
 ATTRIBUTION.md          upstream attribution (LIBERO, LeRobot conversion)
 .gitignore
-annotations/            269 files — the release data
+annotations/            270 files — the release data
   libero_object/<task_name>/<episode_hash>/
         <episode_hash>_subtask_Human1.json        absorb
         <episode_hash>_subtask_Human2.json        absorb
@@ -94,18 +81,13 @@ annotations/            269 files — the release data
         <episode_hash>_subtask_S_Human3.json      fine
   libero_10/<task_name>/<episode_hash>/
         <episode_hash>_subtask_Human{1,2,3}.json  absorb only
-                                                  (one Human2 file quarantined)
 videos/                 episode videos, 120 MP4 files (~358 MB)
   <suite>/<task_name>/<episode_hash>/
         <episode_hash>_observations_image_raw_dsnone_fps10.mp4
         <episode_hash>_observations_image2_raw_dsnone_fps10.mp4
-known_bad/              NOT release data — quarantined, kept for audit only
-  README.md             what is wrong with each quarantined file
-  b24fe5969a0d37b2cbdd637ad59cc19d_subtask_Human2.json
-manifest.csv            one row per collected file (270), shipped and quarantined
+manifest.csv            one row per annotation file (270)
 alias_map.csv           raw label -> canonical label, per annotator/convention
-                        (counted over the 269 shipped files only)
-SHA256SUMS.txt          checksums for annotations/, known_bad/, manifest.csv, alias_map.csv
+SHA256SUMS.txt          checksums for annotations/, manifest.csv, alias_map.csv
 docs/
   ontology_v1.4.ko.md   three-layer action ontology + boundary definitions (Korean)
 ```
@@ -114,10 +96,13 @@ docs/
 `suite, task, episode, annotator, convention, status, path, n_frames, fps,
 n_seg, pattern, source_archive, orig_filename, sha256`.
 
-* `status` is `ok` for the 269 shipped files and `excluded` for the 1 quarantined
-  file. **Filter on `status == "ok"` before computing anything.**
-* `path` is the file's location in this repository, so an `excluded` row points
-  into `known_bad/` rather than `annotations/`.
+* `status` is `ok` for **every row** in the current release — nothing is
+  withheld or quarantined. The column is kept so the schema stays stable: it
+  exists to carry a value other than `ok` if a future revision ever has to
+  withhold a file, so a consumer should still filter on `status == "ok"` rather
+  than assume it.
+* `path` is the file's location in this repository, so a row can always be
+  resolved to the exact bytes that were checksummed.
 * `pattern` is the segment labels joined by `|` in order, **raw** — not
   normalised through `alias_map.csv`.
 
@@ -187,32 +172,21 @@ annotator's own terms verbatim; [`alias_map.csv`](alias_map.csv) records, for
 every distinct raw label per annotator per convention, its count, its canonical
 mapping, and a confidence.
 
-Measured over the **269 shipped files (995 segments)**; the quarantined file's
-9 segments are excluded and accounted for separately below:
+Measured over all **270 files (1000 segments)**:
 
 | Annotator | Segments | Distinct raw labels | Labels needing remapping | Segments remapped |
 |---|---|---|---|---|
 | Human1 | 372 | 6 | 0 | 0 |
-| Human2 | 332 | 10 | 3 (`Release` in absorb, `Reach`, `Put`) | 54 |
+| Human2 | 337 | 10 | 3 (`Release` in absorb — partly, `Reach`, `Put`) | 53 |
 | Human3 | 291 | 9 | 5 (`Pick`, `Put`, `Turn`, `Slide`, `carry`) | 167 |
-| **Total** | **995** | — | — | **221** |
+| **Total** | **1000** | — | — | **220** |
 
-Reconciliation: 995 shipped + 9 in the quarantined file = 1004 segments across
-all 270 collected files. The quarantined file contributes `Grasp` 2, `Lift` 3,
-`Move` 1, `Fold` 1, `Lower` 1, `Place` 1 — all to Human2 / absorb, which is why
-Human2's totals are 332 rather than 341.
-
-**`Lift`, `Lower` and `Fold` appear nowhere in the shipped data.** All five of
-those segments came from the quarantined file alone, so Human2's distinct-label
-count is 10 over the release, not the 13 seen across the raw submission. Any
-earlier tally that lists Human2 as using `Lift` (3), `Lower` (1) or `Fold` (1)
-is counting contaminated data.
-
-Human1 used the given list exactly. Human2 coined `Reach` (6) and wrote
-`Release` (45 absorb / 26 fine) and `Put` (3). Human3 coined `Pick` (80 — the
-dominant label in that set and the one with no canonical equivalent), `Turn`
-(3), `Slide` (2) and the lowercase `carry` (2), and used `Put` (51 absorb / 29
-fine) for two different spans.
+Human1 used the given list exactly. Human2 coined `Reach` (7) and wrote
+`Release` (46 absorb / 26 fine) and `Put` (3); `Lift`, `Lower` and `Fold` appear
+nowhere in the release. Human3 coined `Pick` (80 — the dominant label in that
+set and the one with no canonical equivalent), `Turn` (3), `Slide` (2) and the
+lowercase `carry` (2), and used `Put` (51 absorb / 29 fine) for two different
+spans.
 
 **Any cross-annotator comparison must normalise through `alias_map.csv`
 first.** A raw-label confusion matrix across annotators is meaningless.
@@ -220,11 +194,36 @@ first.** A raw-label confusion matrix across annotators is meaningless.
 **`Put` maps differently in the two conventions, and a single global rule is
 wrong.** In the absorb files `Put` is the whole carry-and-release phase and maps
 to `Place`; in the fine files the carry is already its own `Move` segment, so
-`Put` denotes only the gripper-opening span and maps to `Release`. The same
-applies to Human2's `Release`: in the absorb files it stands for the full
-`Place` phase, while in the fine files `Release` is already canonical and maps
-to itself. `alias_map.csv` is keyed on `(raw_label, annotator, convention)` for
-exactly this reason — do not collapse it to a `raw -> canonical` dictionary.
+`Put` denotes only the gripper-opening span and maps to `Release`.
+
+**Human2's absorb `Release` needs a rule finer than the convention, because it
+denotes two different acts.** Of its 46 absorb occurrences:
+
+* **43 are the terminal set-down of a carried object** — `EngName` reads
+  "release the *object* into/over the basket", and the segment follows a
+  transport (`Move` 37, `Place` 3, `Grasp` 2, `Reach` 1). Here `Release` stands
+  for the whole `Place` phase and maps to **`Place`**.
+* **3 are letting go of a control** — `EngName` reads "Release the stove knob",
+  and each immediately follows a `Rotate` of that same knob, in the three
+  `turn_on_the_stove_and_put_the_moka_pot_on_it` episodes
+  (`1e3755806766f68bdefdd683923905ca`, `3157fa8215d35be37996a7b6505f1733`,
+  `b24fe5969a0d37b2cbdd637ad59cc19d`). Nothing is placed anywhere: the knob
+  stays where it is and the gripper withdraws. Mapping these to `Place` would
+  assert a set-down that does not happen, so here `Release` is **already
+  canonical and maps to itself**.
+
+The two cases are separated by two agreeing signals — the preceding segment type
+(`Rotate` vs a transport) and the object named in `EngName` (a knob vs a carried
+item) — and the split is exact, with no occurrence ambiguous between them, which
+is why both rows carry confidence *high*. In the fine files Human2's `Release`
+is canonical throughout and maps to itself.
+
+`alias_map.csv` therefore carries **two rows** for `(Release, Human2, absorb)`,
+one per canonical target, with the `note` column stating what distinguishes them
+and how many occurrences fall in each. It is keyed on
+`(raw_label, annotator, convention)` and that key is no longer sufficient on its
+own — do not collapse it to a `raw -> canonical` dictionary, and do not apply
+either `Release` row without checking the segment's context.
 
 Two mappings are uncertain and are marked as such in `alias_map.csv`: Human3's
 `Put` in the fine convention (`Release`, confidence *medium*) and Human3's
@@ -238,8 +237,8 @@ settled from the label files alone; it needs the video).
 * Frame indices are **0-based** and **inclusive on both ends**: a segment
   `[start, end]` contains frame `end`.
 * `start` of segment *k+1* equals `end` of segment *k* plus 1; there are no gaps
-  and no overlaps. This holds for all 269 shipped files (and for the quarantined
-  one), and every file's first segment starts at frame 0.
+  and no overlaps. This holds for all 270 files, and every file's first segment
+  starts at frame 0.
 * Indices are frame numbers, not timestamps. Convert with the episode's own
   `fps` from `manifest.csv` — do **not** assume a single fps across the release.
   Tolerances stated in seconds (e.g. τ = 0.5 s) are converted per episode.
@@ -257,9 +256,8 @@ annotations, so the mapping is exact and needs no index arithmetic.
 
 ## Known defects
 
-Apart from the one quarantined file, these are shipped as the annotators
-produced them — nothing has been silently repaired. All 269 shipped files are
-internally contiguous (no gaps, no overlaps, first segment starts at 0), but the
+These are shipped as the annotators produced them — nothing has been silently
+repaired. All 270 files are internally contiguous (no gaps, no overlaps, first segment starts at 0), but the
 following do not end where the episode ends. They are **real annotations with a
 boundary defect, not wrong data**, so they stay in `annotations/`.
 
@@ -280,11 +278,6 @@ shipped files, all Human2 fine:
 | `d676c9a46165d27cc3bd1cb50fdb65e7` | libero_object / pick_up_the_butter… | fine | 151 | 153 | 3 |
 | `4267eb3d3d5cda5caeaa71480018ed63` | libero_object / pick_up_the_orange_juice… | fine | 129 | 130 | 2 |
 
-A sixth overrun — `b24fe5969a0d37b2cbdd637ad59cc19d`, Human2 absorb, `n_frames`
-290 against a last `EndFrameNum` of 1299 — is **not** in this table because it
-is not a boundary defect: it is wrong-episode data and has been quarantined
-(see below).
-
 **Last segment stops short of the final frame** — 3 files, all Human3 absorb:
 
 | episode | suite / task | n_frames | last `EndFrameNum` | frames unlabelled |
@@ -293,17 +286,18 @@ is not a boundary defect: it is wrong-episode data and has been quarantined
 | `b04096415d1942662fbb1098e72105ad` | libero_10 / put_the_white_mug_on_the_plate… | 249 | 231 | 17 |
 | `398e4699f9e4519bc21544e7d50bab53` | libero_object / pick_up_the_alphabet_soup… | 152 | 149 | 2 |
 
-**Quarantined: wrong-episode contamination (1 file).**
-`b24fe5969a0d37b2cbdd637ad59cc19d_subtask_Human2.json` carries
-`Task_Info.TaskID = "wipe wine"` and 9 segments spanning frames 0–1299, against
-an episode of 290 frames. It is the only file in the collection whose `TaskID`
-does not match its directory, and its labels (`Grasp, Lift, Grasp, Lift, Move,
-Fold, Lower, Lift, Place`) do not describe a stove-and-moka-pot episode. It has
-been moved out of `annotations/` into [`known_bad/`](known_bad/README.md); it is
-**not release data** and is kept only so the defect is auditable. It must not be
-rescaled or clamped — the frame numbers refer to other footage. Consequence:
-Human2 has no usable absorb annotation for this episode, which is the single
-coverage gap noted above.
+**One annotation was resubmitted before release.** Human2's absorb file for
+`b24fe5969a0d37b2cbdd637ad59cc19d` (libero_10 /
+turn_on_the_stove_and_put_the_moka_pot_on_it) was initially submitted with
+wrong-episode content — a different task's labels spanning 1299 frames against
+an episode of 290 — and was replaced by a corrected annotation from the same
+annotator. **The released file is the corrected one**: 5 segments,
+`Reach | Rotate | Release | Grasp | Place`, ending exactly at frame 289. One
+artefact of the original submission survives in it: `Task_Info.TaskID` still
+reads `"wipe wine"`, so this remains the only file in the release whose `TaskID`
+disagrees with its directory. The frame data and labels are correct; read the
+task from the directory path or from `Task_Info.task_instruction` (which is
+correct), not from `TaskID`.
 
 **Genuine absorb/fine disagreement**, `76ac76f286917e62fbd35d9560e5587b`
 (libero_object / pick_up_the_bbq_sauce…, Human3): the absorb file ends its
