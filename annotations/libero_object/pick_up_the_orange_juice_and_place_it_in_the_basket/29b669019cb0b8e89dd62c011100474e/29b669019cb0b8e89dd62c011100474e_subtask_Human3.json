@@ -1,0 +1,40 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "EpisodeID": "29b669019cb0b8e89dd62c011100474e",
+    "suite": "libero_object",
+    "episode_index": 1043,
+    "task_instruction": "pick up the orange juice and place it in the basket",
+    "n_frames": 131,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the orange juice box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 53,
+      "DurationSeconds": 5.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "move the arm toward the orange juice bottle",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 54,
+      "EndFrameNum": 130,
+      "DurationSeconds": 7.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

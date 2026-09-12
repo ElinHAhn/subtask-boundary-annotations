@@ -1,0 +1,82 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "EpisodeID": "398e4699f9e4519bc21544e7d50bab53",
+    "suite": "libero_object",
+    "episode_index": 850,
+    "task_instruction": "pick up the alphabet soup and place it in the basket",
+    "n_frames": 152,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "fine",
+    "ConventionSpec": "액션_온톨로지_정의서 v1.2 §3.0 (fine)",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move to the alphabet soup box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 52,
+      "DurationSeconds": 5.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the alphabet soup box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 53,
+      "EndFrameNum": 55,
+      "DurationSeconds": 0.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the alphabet soup box into the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 56,
+      "EndFrameNum": 121,
+      "DurationSeconds": 6.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the alphabet soup box into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 122,
+      "EndFrameNum": 140,
+      "DurationSeconds": 1.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 141,
+      "EndFrameNum": 151,
+      "DurationSeconds": 1.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

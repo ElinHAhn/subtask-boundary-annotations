@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_moka_pots_on_the_stove",
+    "EpisodeID": "afccc4bbe99cf0ce6bcfffa17735a700",
+    "suite": "libero_10",
+    "episode_index": 57,
+    "task_instruction": "put both moka pots on the stove",
+    "n_frames": 368,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "grasp the left moka pot",
+      "KorName": "",
+      "TaskActionType": "Reach",
+      "StartFrameNum": 0,
+      "EndFrameNum": 117,
+      "DurationSeconds": 11.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the moka pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 118,
+      "EndFrameNum": 195,
+      "DurationSeconds": 7.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the moka pot",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 196,
+      "EndFrameNum": 284,
+      "DurationSeconds": 8.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the moka pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 285,
+      "EndFrameNum": 367,
+      "DurationSeconds": 8.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "EpisodeID": "398e4699f9e4519bc21544e7d50bab53",
+    "suite": "libero_object",
+    "episode_index": 850,
+    "task_instruction": "pick up the alphabet soup and place it in the basket",
+    "n_frames": 152,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the blue can",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 56,
+      "DurationSeconds": 5.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the blue can in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 57,
+      "EndFrameNum": 149,
+      "DurationSeconds": 9.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

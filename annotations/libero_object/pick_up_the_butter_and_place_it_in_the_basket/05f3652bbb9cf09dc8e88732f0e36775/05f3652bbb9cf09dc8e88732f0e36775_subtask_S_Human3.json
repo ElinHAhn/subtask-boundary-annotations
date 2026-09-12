@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_butter_and_place_it_in_the_basket",
+    "EpisodeID": "05f3652bbb9cf09dc8e88732f0e36775",
+    "suite": "libero_object",
+    "episode_index": 861,
+    "task_instruction": "pick up the butter and place it in the basket",
+    "n_frames": 149,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "move to the red box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 43,
+      "DurationSeconds": 4.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "grasp the red box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 44,
+      "EndFrameNum": 54,
+      "DurationSeconds": 1.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 55,
+      "EndFrameNum": 130,
+      "DurationSeconds": 7.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "put the box in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 131,
+      "EndFrameNum": 148,
+      "DurationSeconds": 1.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

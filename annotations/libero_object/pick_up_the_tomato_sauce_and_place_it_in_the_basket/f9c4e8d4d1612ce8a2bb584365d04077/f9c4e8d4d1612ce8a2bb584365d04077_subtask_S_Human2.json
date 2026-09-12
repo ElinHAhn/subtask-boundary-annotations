@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "EpisodeID": "f9c4e8d4d1612ce8a2bb584365d04077",
+    "suite": "libero_object",
+    "episode_index": 967,
+    "task_instruction": "pick up the tomato sauce and place it in the basket",
+    "n_frames": 145,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "fine",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move hand to the tomato sauce bottle",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 57,
+      "DurationSeconds": 5.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the tomato sauce bottle",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 58,
+      "EndFrameNum": 64,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the tomato sauce bottle over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 65,
+      "EndFrameNum": 131,
+      "DurationSeconds": 6.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Release the tomato sauce bottle into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 132,
+      "EndFrameNum": 144,
+      "DurationSeconds": 1.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

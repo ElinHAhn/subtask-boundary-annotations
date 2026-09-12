@@ -1,0 +1,40 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "EpisodeID": "a04c83d25d12894e57583b99200a2676",
+    "suite": "libero_10",
+    "episode_index": 109,
+    "task_instruction": "pick up the book and place it in the back compartment of the caddy",
+    "n_frames": 167,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick up the book",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 57,
+      "DurationSeconds": 5.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the book in the compartment caddy",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 58,
+      "EndFrameNum": 166,
+      "DurationSeconds": 10.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

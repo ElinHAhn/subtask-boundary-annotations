@@ -1,0 +1,81 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "EpisodeID": "f19d040ada8ed070b5f6a74fccfdc2ed",
+    "suite": "libero_object",
+    "episode_index": 964,
+    "task_instruction": "pick up the cream cheese and place it in the basket",
+    "n_frames": 156,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "close the gripper on the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 55,
+      "DurationSeconds": 5.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "move the arm",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 56,
+      "EndFrameNum": 63,
+      "DurationSeconds": 0.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the cream cheese",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 64,
+      "EndFrameNum": 86,
+      "DurationSeconds": 2.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the cream cheese in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 87,
+      "EndFrameNum": 142,
+      "DurationSeconds": 5.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 143,
+      "EndFrameNum": 155,
+      "DurationSeconds": 1.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "EpisodeID": "9574cf9f97e04f5d46124fe32ee6e219",
+    "suite": "libero_object",
+    "episode_index": 1074,
+    "task_instruction": "pick up the alphabet soup and place it in the basket",
+    "n_frames": 149,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "move to the blue can",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 47,
+      "DurationSeconds": 4.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "grasp the blue can",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 48,
+      "EndFrameNum": 52,
+      "DurationSeconds": 0.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "move the arm toward the alphabet soup box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 53,
+      "EndFrameNum": 128,
+      "DurationSeconds": 7.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "put the can on the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 129,
+      "EndFrameNum": 148,
+      "DurationSeconds": 2.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

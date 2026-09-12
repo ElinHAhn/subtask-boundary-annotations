@@ -1,0 +1,94 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "EpisodeID": "748384ed64efa65bd3c4a072ffe0b2d5",
+    "suite": "libero_10",
+    "episode_index": 208,
+    "task_instruction": "put both the alphabet soup and the cream cheese box in the basket",
+    "n_frames": 250,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the alphabet soup box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 50,
+      "DurationSeconds": 5.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Move the alphabet soup box over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 51,
+      "EndFrameNum": 105,
+      "DurationSeconds": 5.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Release the alphabet soup box into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 106,
+      "EndFrameNum": 112,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Grasp the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 113,
+      "EndFrameNum": 186,
+      "DurationSeconds": 7.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Move the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 187,
+      "EndFrameNum": 235,
+      "DurationSeconds": 4.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 6,
+      "EngName": "Release the cream cheese box into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 236,
+      "EndFrameNum": 249,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "EpisodeID": "f19d040ada8ed070b5f6a74fccfdc2ed",
+    "suite": "libero_object",
+    "episode_index": 964,
+    "task_instruction": "pick up the cream cheese and place it in the basket",
+    "n_frames": 156,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "move to the bluet box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 41,
+      "DurationSeconds": 4.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "grasp the blue box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 42,
+      "EndFrameNum": 55,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "move upside",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 56,
+      "EndFrameNum": 63,
+      "DurationSeconds": 0.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "move to the bluet box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 64,
+      "EndFrameNum": 78,
+      "DurationSeconds": 1.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "grasp the blue box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 79,
+      "EndFrameNum": 85,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 6,
+      "EngName": "move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 86,
+      "EndFrameNum": 141,
+      "DurationSeconds": 5.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 7,
+      "EngName": "put the blue box to the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 142,
+      "EndFrameNum": 155,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

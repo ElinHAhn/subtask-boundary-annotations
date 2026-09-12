@@ -1,0 +1,82 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "EpisodeID": "7470cca3f5edfd8514472d971418fda1",
+    "suite": "libero_object",
+    "episode_index": 821,
+    "task_instruction": "pick up the tomato sauce and place it in the basket",
+    "n_frames": 132,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "fine",
+    "ConventionSpec": "액션_온톨로지_정의서 v1.2 §3.0 (fine)",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move to the tomato sauce can",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 55,
+      "DurationSeconds": 5.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the tomato sauce can",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 56,
+      "EndFrameNum": 62,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 63,
+      "EndFrameNum": 104,
+      "DurationSeconds": 4.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "place the tomato sauce can into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 105,
+      "EndFrameNum": 120,
+      "DurationSeconds": 1.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 121,
+      "EndFrameNum": 131,
+      "DurationSeconds": 1.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

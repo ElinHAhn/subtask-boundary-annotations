@@ -1,0 +1,82 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "EpisodeID": "b286efa6e99a040807597eb2102448ad",
+    "suite": "libero_object",
+    "episode_index": 1170,
+    "task_instruction": "pick up the salad dressing and place it in the basket",
+    "n_frames": 123,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "fine",
+    "ConventionSpec": "액션_온톨로지_정의서 v1.2 §3.0 (fine)",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move to the green bottle",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 42,
+      "DurationSeconds": 4.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the green bottle",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 43,
+      "EndFrameNum": 50,
+      "DurationSeconds": 0.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 51,
+      "EndFrameNum": 91,
+      "DurationSeconds": 4.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the green bottle into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 92,
+      "EndFrameNum": 111,
+      "DurationSeconds": 2.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 112,
+      "EndFrameNum": 122,
+      "DurationSeconds": 1.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

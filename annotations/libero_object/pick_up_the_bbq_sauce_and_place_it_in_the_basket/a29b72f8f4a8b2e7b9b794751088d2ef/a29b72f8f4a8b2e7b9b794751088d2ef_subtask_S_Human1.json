@@ -1,0 +1,82 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "EpisodeID": "a29b72f8f4a8b2e7b9b794751088d2ef",
+    "suite": "libero_object",
+    "episode_index": 980,
+    "task_instruction": "pick up the bbq sauce and place it in the basket",
+    "n_frames": 132,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "fine",
+    "ConventionSpec": "액션_온톨로지_정의서 v1.2 §3.0 (fine)",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move to the brown bottle",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 47,
+      "DurationSeconds": 4.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the gripper on the brown bottle",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 48,
+      "EndFrameNum": 54,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 55,
+      "EndFrameNum": 100,
+      "DurationSeconds": 4.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the brown bottle in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 101,
+      "EndFrameNum": 119,
+      "DurationSeconds": 1.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 120,
+      "EndFrameNum": 131,
+      "DurationSeconds": 1.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_milk_and_place_it_in_the_basket",
+    "EpisodeID": "b82d3a31157729353cb82332c7832cfa",
+    "suite": "libero_object",
+    "episode_index": 941,
+    "task_instruction": "pick up the milk and place it in the basket",
+    "n_frames": 126,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "fine",
+    "ConventionSpec": "액션_온톨로지_정의서 v1.2 §3.0 (fine)",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move to the milk carton",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 39,
+      "DurationSeconds": 4.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the milk carton",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 40,
+      "EndFrameNum": 47,
+      "DurationSeconds": 0.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 48,
+      "EndFrameNum": 99,
+      "DurationSeconds": 5.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the milk carton into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 100,
+      "EndFrameNum": 124,
+      "DurationSeconds": 2.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 125,
+      "EndFrameNum": 125,
+      "DurationSeconds": 0.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

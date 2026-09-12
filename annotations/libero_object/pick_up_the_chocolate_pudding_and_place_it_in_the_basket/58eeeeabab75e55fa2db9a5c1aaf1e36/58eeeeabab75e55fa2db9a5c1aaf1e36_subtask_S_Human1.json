@@ -1,0 +1,82 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "EpisodeID": "58eeeeabab75e55fa2db9a5c1aaf1e36",
+    "suite": "libero_object",
+    "episode_index": 834,
+    "task_instruction": "pick up the chocolate pudding and place it in the basket",
+    "n_frames": 159,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "fine",
+    "ConventionSpec": "액션_온톨로지_정의서 v1.2 §3.0 (fine)",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move to the chocolate pudding",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 50,
+      "DurationSeconds": 5.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the chocolate pudding",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 51,
+      "EndFrameNum": 61,
+      "DurationSeconds": 1.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 62,
+      "EndFrameNum": 124,
+      "DurationSeconds": 6.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "place the chocolate pudding into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 125,
+      "EndFrameNum": 146,
+      "DurationSeconds": 2.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 147,
+      "EndFrameNum": 158,
+      "DurationSeconds": 1.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

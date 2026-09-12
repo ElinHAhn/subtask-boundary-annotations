@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_moka_pots_on_the_stove",
+    "EpisodeID": "a9505794aa85e2197370123986f5bd02",
+    "suite": "libero_10",
+    "episode_index": 306,
+    "task_instruction": "put both moka pots on the stove",
+    "n_frames": 505,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick up one pot",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 133,
+      "DurationSeconds": 13.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "place the pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 134,
+      "EndFrameNum": 206,
+      "DurationSeconds": 7.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "pick up the other pot",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 207,
+      "EndFrameNum": 398,
+      "DurationSeconds": 19.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "place the pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 399,
+      "EndFrameNum": 504,
+      "DurationSeconds": 10.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

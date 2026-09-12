@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "EpisodeID": "a29b72f8f4a8b2e7b9b794751088d2ef",
+    "suite": "libero_object",
+    "episode_index": 980,
+    "task_instruction": "pick up the bbq sauce and place it in the basket",
+    "n_frames": 132,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "fine",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move hand to the bbq sauce",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 46,
+      "DurationSeconds": 4.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the bbq sauce",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 47,
+      "EndFrameNum": 55,
+      "DurationSeconds": 0.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the bbq sauce over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 56,
+      "EndFrameNum": 119,
+      "DurationSeconds": 6.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Release the bbq sauce into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 120,
+      "EndFrameNum": 131,
+      "DurationSeconds": 1.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

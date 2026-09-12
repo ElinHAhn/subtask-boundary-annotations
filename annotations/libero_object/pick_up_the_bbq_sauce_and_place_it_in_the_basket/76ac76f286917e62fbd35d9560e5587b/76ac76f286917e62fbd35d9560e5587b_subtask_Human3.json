@@ -1,0 +1,40 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "EpisodeID": "76ac76f286917e62fbd35d9560e5587b",
+    "suite": "libero_object",
+    "episode_index": 973,
+    "task_instruction": "pick up the bbq sauce and place it in the basket",
+    "n_frames": 129,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the brown bottle",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 68,
+      "DurationSeconds": 6.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the bottle in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 69,
+      "EndFrameNum": 128,
+      "DurationSeconds": 6.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# large intermediates that do not belong in the release
+*.hdf5
+*.parquet
+
+# archives (the extracted trees are what is tracked)
+*.tar.gz
+*.zip
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

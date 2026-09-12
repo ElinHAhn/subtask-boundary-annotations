@@ -1,0 +1,79 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_moka_pots_on_the_stove",
+    "EpisodeID": "afccc4bbe99cf0ce6bcfffa17735a700",
+    "suite": "libero_10",
+    "episode_index": 57,
+    "task_instruction": "put both moka pots on the stove",
+    "n_frames": 368,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the right moka pot",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 114,
+      "DurationSeconds": 11.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "place the moka pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 115,
+      "EndFrameNum": 179,
+      "DurationSeconds": 6.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the left moka pot",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 180,
+      "EndFrameNum": 283,
+      "DurationSeconds": 10.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "place the moka pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 284,
+      "EndFrameNum": 365,
+      "DurationSeconds": 8.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 366,
+      "EndFrameNum": 367,
+      "DurationSeconds": 0.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

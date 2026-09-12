@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "EpisodeID": "c14caa9b24a6584fa6817f4ec7566048",
+    "suite": "libero_10",
+    "episode_index": 273,
+    "task_instruction": "put both the cream cheese box and the butter in the basket",
+    "n_frames": 322,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick up the blue box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 70,
+      "DurationSeconds": 7.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the can  in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 71,
+      "EndFrameNum": 141,
+      "DurationSeconds": 7.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "pick up the red box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 142,
+      "EndFrameNum": 254,
+      "DurationSeconds": 11.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "put the can  in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 255,
+      "EndFrameNum": 321,
+      "DurationSeconds": 6.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

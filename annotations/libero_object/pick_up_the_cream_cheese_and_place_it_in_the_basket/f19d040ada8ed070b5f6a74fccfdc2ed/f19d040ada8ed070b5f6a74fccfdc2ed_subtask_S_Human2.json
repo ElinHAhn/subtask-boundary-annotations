@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "EpisodeID": "f19d040ada8ed070b5f6a74fccfdc2ed",
+    "suite": "libero_object",
+    "episode_index": 964,
+    "task_instruction": "pick up the cream cheese and place it in the basket",
+    "n_frames": 156,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "fine",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move hand to the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 46,
+      "DurationSeconds": 4.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 47,
+      "EndFrameNum": 85,
+      "DurationSeconds": 3.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the cream cheese box over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 86,
+      "EndFrameNum": 141,
+      "DurationSeconds": 5.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Release the cream cheese box into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 142,
+      "EndFrameNum": 155,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

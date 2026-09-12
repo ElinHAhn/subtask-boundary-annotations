@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "EpisodeID": "8250435635c4053f17d811c65728ea68",
+    "suite": "libero_10",
+    "episode_index": 216,
+    "task_instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "n_frames": 232,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the withe mug",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 55,
+      "DurationSeconds": 5.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the white mug on the place",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 56,
+      "EndFrameNum": 124,
+      "DurationSeconds": 6.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the chocolate pudding",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 125,
+      "EndFrameNum": 190,
+      "DurationSeconds": 6.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the chocolate pudding to the right of the plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 191,
+      "EndFrameNum": 231,
+      "DurationSeconds": 4.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

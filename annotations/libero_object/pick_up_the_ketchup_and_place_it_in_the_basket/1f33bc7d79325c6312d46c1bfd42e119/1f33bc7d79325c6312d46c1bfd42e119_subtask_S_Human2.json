@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_ketchup_and_place_it_in_the_basket",
+    "EpisodeID": "1f33bc7d79325c6312d46c1bfd42e119",
+    "suite": "libero_object",
+    "episode_index": 963,
+    "task_instruction": "pick up the ketchup and place it in the basket",
+    "n_frames": 148,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "fine",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move the hand to the ketchup",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 51,
+      "DurationSeconds": 5.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the ketchup",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 52,
+      "EndFrameNum": 61,
+      "DurationSeconds": 1.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the ketchup over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 62,
+      "EndFrameNum": 140,
+      "DurationSeconds": 7.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Release the ketchup into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 141,
+      "EndFrameNum": 147,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

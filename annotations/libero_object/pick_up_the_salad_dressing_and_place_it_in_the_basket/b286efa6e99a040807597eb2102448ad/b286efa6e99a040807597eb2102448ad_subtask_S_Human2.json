@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "EpisodeID": "b286efa6e99a040807597eb2102448ad",
+    "suite": "libero_object",
+    "episode_index": 1170,
+    "task_instruction": "pick up the salad dressing and place it in the basket",
+    "n_frames": 123,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "fine",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Mvoe the hand to the salad dressing bottle",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 42,
+      "DurationSeconds": 4.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the salad dressing bottle",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 43,
+      "EndFrameNum": 51,
+      "DurationSeconds": 0.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the salad dressing bottle over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 52,
+      "EndFrameNum": 110,
+      "DurationSeconds": 5.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Release the salad dressing bottle",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 111,
+      "EndFrameNum": 122,
+      "DurationSeconds": 1.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_butter_and_place_it_in_the_basket",
+    "EpisodeID": "d676c9a46165d27cc3bd1cb50fdb65e7",
+    "suite": "libero_object",
+    "episode_index": 872,
+    "task_instruction": "pick up the butter and place it in the basket",
+    "n_frames": 151,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the red box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 53,
+      "DurationSeconds": 5.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the box in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 54,
+      "EndFrameNum": 150,
+      "DurationSeconds": 9.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "EpisodeID": "f19d040ada8ed070b5f6a74fccfdc2ed",
+    "suite": "libero_object",
+    "episode_index": 964,
+    "task_instruction": "pick up the cream cheese and place it in the basket",
+    "n_frames": 156,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the blue box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 63,
+      "DurationSeconds": 6.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "pick the blue box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 64,
+      "EndFrameNum": 85,
+      "DurationSeconds": 2.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "put the blue box to the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 86,
+      "EndFrameNum": 155,
+      "DurationSeconds": 7.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

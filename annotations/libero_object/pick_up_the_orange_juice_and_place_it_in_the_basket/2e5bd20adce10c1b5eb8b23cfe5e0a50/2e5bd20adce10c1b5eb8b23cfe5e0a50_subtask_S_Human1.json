@@ -1,0 +1,69 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "EpisodeID": "2e5bd20adce10c1b5eb8b23cfe5e0a50",
+    "suite": "libero_object",
+    "episode_index": 1197,
+    "task_instruction": "pick up the orange juice and place it in the basket",
+    "n_frames": 121,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "fine",
+    "ConventionSpec": "액션_온톨로지_정의서 v1.2 §3.0 (fine)",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move to the orange juice",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 49,
+      "DurationSeconds": 5.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the orange juice",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 50,
+      "EndFrameNum": 54,
+      "DurationSeconds": 0.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 55,
+      "EndFrameNum": 96,
+      "DurationSeconds": 4.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the orange juice into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 97,
+      "EndFrameNum": 120,
+      "DurationSeconds": 2.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

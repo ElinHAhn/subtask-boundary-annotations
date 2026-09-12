@@ -1,0 +1,55 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "EpisodeID": "7227696448a604bc6bec1d408d4cd6c5",
+    "suite": "libero_10",
+    "episode_index": 145,
+    "task_instruction": "put the yellow and white mug in the microwave and close it",
+    "n_frames": 255,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the yellow and white mug",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 102,
+      "DurationSeconds": 10.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Put the yellow and white mug in the microwave",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 103,
+      "EndFrameNum": 174,
+      "DurationSeconds": 7.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Close the microwave",
+      "KorName": "",
+      "TaskActionType": "Close",
+      "StartFrameNum": 175,
+      "EndFrameNum": 254,
+      "DurationSeconds": 8.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

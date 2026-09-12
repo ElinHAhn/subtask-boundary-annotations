@@ -1,0 +1,79 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "EpisodeID": "63f779908655a01c0ca6ee8570abfe80",
+    "suite": "libero_10",
+    "episode_index": 346,
+    "task_instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+    "n_frames": 275,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the white mug",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 52,
+      "DurationSeconds": 5.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the white mug to the right plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 53,
+      "EndFrameNum": 114,
+      "DurationSeconds": 6.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the yellow mug",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 115,
+      "EndFrameNum": 190,
+      "DurationSeconds": 7.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the yellow mug to the left plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 191,
+      "EndFrameNum": 266,
+      "DurationSeconds": 7.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 267,
+      "EndFrameNum": 274,
+      "DurationSeconds": 0.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

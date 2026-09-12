@@ -1,0 +1,55 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_milk_and_place_it_in_the_basket",
+    "EpisodeID": "b82d3a31157729353cb82332c7832cfa",
+    "suite": "libero_object",
+    "episode_index": 941,
+    "task_instruction": "pick up the milk and place it in the basket",
+    "n_frames": 126,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the milk",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 47,
+      "DurationSeconds": 4.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "move the milk over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 48,
+      "EndFrameNum": 124,
+      "DurationSeconds": 7.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "release the milk into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 125,
+      "EndFrameNum": 125,
+      "DurationSeconds": 0.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "EpisodeID": "9e8ed90845d9267bc2c5db371e19942f",
+    "suite": "libero_object",
+    "episode_index": 1098,
+    "task_instruction": "pick up the salad dressing and place it in the basket",
+    "n_frames": 129,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the green bottle",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 54,
+      "DurationSeconds": 5.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the green bottle in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 55,
+      "EndFrameNum": 128,
+      "DurationSeconds": 7.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

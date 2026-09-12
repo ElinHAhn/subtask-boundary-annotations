@@ -1,0 +1,53 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "EpisodeID": "ec4f817d9c2a4de999bd09696b648263",
+    "suite": "libero_10",
+    "episode_index": 274,
+    "task_instruction": "put the black bowl in the bottom drawer of the cabinet and close it",
+    "n_frames": 230,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the bowl",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 93,
+      "DurationSeconds": 9.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "place the bowl in the drawer",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 94,
+      "EndFrameNum": 168,
+      "DurationSeconds": 7.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "close the drawer",
+      "KorName": "",
+      "TaskActionType": "Slide",
+      "StartFrameNum": 169,
+      "EndFrameNum": 229,
+      "DurationSeconds": 6.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

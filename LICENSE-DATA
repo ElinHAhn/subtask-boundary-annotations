@@ -1,0 +1,29 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The annotation data in this repository -- all subtask boundary / label JSON
+files under annotations/, the manifests, and the ontology specification
+document -- are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+  Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+  Full legal code:        https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this data for any purpose, including
+commercially, provided you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+Attribution
+-----------
+Please cite:
+
+  E. Hahn et al., "A Three-Layer Action Ontology and Measurement Protocol for
+  Robot Subtask Boundaries," 2026.
+  Annotation data: https://github.com/ElinHAhn/subtask-boundary-annotations
+
+Upstream data
+-------------
+The annotated episodes come from the LIBERO benchmark (LIBERO-Object and
+LIBERO-10 suites), redistributed by the HuggingFace LeRobot conversion
+(HuggingFaceVLA/libero). The LIBERO datasets are licensed CC BY 4.0 and the
+LIBERO code is licensed MIT; see ATTRIBUTION.md. This license covers only the
+annotations added by this project, not the underlying LIBERO observations.

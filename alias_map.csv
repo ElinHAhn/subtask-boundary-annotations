@@ -1,0 +1,36 @@
+raw_label,canonical_label,convention,annotator,n,confidence,note
+Close,Close,absorb,Human1,3,high,
+Grasp,Grasp,absorb,Human1,83,high,
+Move,Move,absorb,Human1,52,high,
+Place,Place,absorb,Human1,78,high,
+Push,Push,absorb,Human1,3,high,
+Rotate,Rotate,absorb,Human1,3,high,
+Grasp,Grasp,fine,Human1,31,high,
+Move,Move,fine,Human1,89,high,
+Place,Place,fine,Human1,30,high,
+Align,Align,absorb,Human2,1,high,
+Close,Close,absorb,Human2,6,high,
+Grasp,Grasp,absorb,Human2,74,high,
+Insert,Insert,absorb,Human2,2,high,
+Move,Move,absorb,Human2,50,high,
+Place,Place,absorb,Human2,26,high,
+Put,Place,absorb,Human2,3,high,
+Reach,Move,absorb,Human2,6,high,
+Release,Place,absorb,Human2,45,high,gripper-opening onset; absorb Place end
+Rotate,Rotate,absorb,Human2,2,high,
+Grasp,Grasp,fine,Human2,30,high,
+Move,Move,fine,Human2,58,high,
+Place,Place,fine,Human2,3,high,
+Release,Release,fine,Human2,26,high,already canonical in the fine convention
+Close,Close,absorb,Human3,3,high,
+Grasp,Grasp,absorb,Human3,3,high,
+Move,Move,absorb,Human3,1,high,
+Pick,Grasp,absorb,Human3,80,high,reach+grasp; ends at grasp completion
+Place,Place,absorb,Human3,27,high,
+Put,Place,absorb,Human3,51,high,
+Slide,Close,absorb,Human3,2,high,drawer close
+Turn,Rotate,absorb,Human3,3,low,"stove-knob turn; not determinable from the files alone, needs video"
+Grasp,Grasp,fine,Human3,31,high,
+Move,Move,fine,Human3,59,high,
+Put,Release,fine,Human3,29,medium,"fine Put spans the gripper-opening segment, not the carry"
+carry,Move,fine,Human3,2,high,lowercase label

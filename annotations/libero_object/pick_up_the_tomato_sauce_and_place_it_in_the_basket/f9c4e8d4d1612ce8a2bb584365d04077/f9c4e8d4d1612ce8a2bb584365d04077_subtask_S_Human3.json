@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "EpisodeID": "f9c4e8d4d1612ce8a2bb584365d04077",
+    "suite": "libero_object",
+    "episode_index": 967,
+    "task_instruction": "pick up the tomato sauce and place it in the basket",
+    "n_frames": 145,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "move to the red can",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 61,
+      "DurationSeconds": 6.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "grasp the red can",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 62,
+      "EndFrameNum": 68,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 69,
+      "EndFrameNum": 131,
+      "DurationSeconds": 6.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "put the red can to the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 132,
+      "EndFrameNum": 144,
+      "DurationSeconds": 1.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "EpisodeID": "82e8a1bd859eaa5de6aa53a806134e6c",
+    "suite": "libero_10",
+    "episode_index": 260,
+    "task_instruction": "put both the alphabet soup and the tomato sauce in the basket",
+    "n_frames": 367,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the alphabet soup can",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 69,
+      "DurationSeconds": 7.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the alphabet soup can in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 70,
+      "EndFrameNum": 157,
+      "DurationSeconds": 8.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "close the gripper on the tomato sauce bottle",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 158,
+      "EndFrameNum": 244,
+      "DurationSeconds": 8.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Move the gripper",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 245,
+      "EndFrameNum": 258,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Grasp the tomato sauce",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 259,
+      "EndFrameNum": 294,
+      "DurationSeconds": 3.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 6,
+      "EngName": "Place the tomato soup in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 295,
+      "EndFrameNum": 353,
+      "DurationSeconds": 5.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 7,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 354,
+      "EndFrameNum": 366,
+      "DurationSeconds": 1.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

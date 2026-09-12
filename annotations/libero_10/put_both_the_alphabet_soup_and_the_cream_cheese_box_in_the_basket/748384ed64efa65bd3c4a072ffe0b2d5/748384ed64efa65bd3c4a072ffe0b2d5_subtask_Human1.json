@@ -1,0 +1,79 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "EpisodeID": "748384ed64efa65bd3c4a072ffe0b2d5",
+    "suite": "libero_10",
+    "episode_index": 208,
+    "task_instruction": "put both the alphabet soup and the cream cheese box in the basket",
+    "n_frames": 250,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the alphabet soup",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 50,
+      "DurationSeconds": 5.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the alphabet soup in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 51,
+      "EndFrameNum": 105,
+      "DurationSeconds": 5.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 106,
+      "EndFrameNum": 186,
+      "DurationSeconds": 8.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the cream cheese box in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 187,
+      "EndFrameNum": 235,
+      "DurationSeconds": 4.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final Move/Retreat",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 236,
+      "EndFrameNum": 249,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

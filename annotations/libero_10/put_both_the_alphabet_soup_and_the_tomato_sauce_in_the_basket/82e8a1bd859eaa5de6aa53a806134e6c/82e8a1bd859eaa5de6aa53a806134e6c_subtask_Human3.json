@@ -1,0 +1,79 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "EpisodeID": "82e8a1bd859eaa5de6aa53a806134e6c",
+    "suite": "libero_10",
+    "episode_index": 260,
+    "task_instruction": "put both the alphabet soup and the tomato sauce in the basket",
+    "n_frames": 367,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick up the blue can",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 68,
+      "DurationSeconds": 6.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the can  in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 69,
+      "EndFrameNum": 162,
+      "DurationSeconds": 9.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "pick up the red can",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 163,
+      "EndFrameNum": 247,
+      "DurationSeconds": 8.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "pick up the red can",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 248,
+      "EndFrameNum": 296,
+      "DurationSeconds": 4.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "put the can  in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 297,
+      "EndFrameNum": 366,
+      "DurationSeconds": 7.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

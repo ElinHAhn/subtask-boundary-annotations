@@ -1,0 +1,55 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_milk_and_place_it_in_the_basket",
+    "EpisodeID": "55ad0c6b5ce46e3afdbd0e962d7e7d46",
+    "suite": "libero_object",
+    "episode_index": 817,
+    "task_instruction": "pick up the milk and place it in the basket",
+    "n_frames": 143,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the milk carton",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 49,
+      "DurationSeconds": 5.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the milk carton into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 50,
+      "EndFrameNum": 138,
+      "DurationSeconds": 8.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 139,
+      "EndFrameNum": 142,
+      "DurationSeconds": 0.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

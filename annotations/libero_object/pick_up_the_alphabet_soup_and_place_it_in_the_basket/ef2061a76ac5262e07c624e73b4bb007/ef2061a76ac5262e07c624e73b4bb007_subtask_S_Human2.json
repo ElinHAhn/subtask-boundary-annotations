@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "EpisodeID": "ef2061a76ac5262e07c624e73b4bb007",
+    "suite": "libero_object",
+    "episode_index": 887,
+    "task_instruction": "pick up the alphabet soup and place it in the basket",
+    "n_frames": 143,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "fine",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move the hand to the alphabet soup can",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 47,
+      "DurationSeconds": 4.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the alphabet soup box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 48,
+      "EndFrameNum": 52,
+      "DurationSeconds": 0.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "place the alphabet soup box",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 53,
+      "EndFrameNum": 134,
+      "DurationSeconds": 8.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "release the alphabet soup box",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 135,
+      "EndFrameNum": 142,
+      "DurationSeconds": 0.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

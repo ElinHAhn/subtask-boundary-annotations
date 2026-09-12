@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "EpisodeID": "f6f8bcb0f80de4af902ae583b885e9e5",
+    "suite": "libero_10",
+    "episode_index": 77,
+    "task_instruction": "put both the alphabet soup and the tomato sauce in the basket",
+    "n_frames": 300,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick up the blue can",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 84,
+      "DurationSeconds": 8.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the can  in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 85,
+      "EndFrameNum": 174,
+      "DurationSeconds": 9.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "pick up the red can",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 175,
+      "EndFrameNum": 238,
+      "DurationSeconds": 6.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "put the can  in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 239,
+      "EndFrameNum": 299,
+      "DurationSeconds": 6.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

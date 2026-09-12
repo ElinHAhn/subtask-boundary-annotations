@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "EpisodeID": "a15974726bfd5eeb046b1f1f16ee56c7",
+    "suite": "libero_object",
+    "episode_index": 1201,
+    "task_instruction": "pick up the chocolate pudding and place it in the basket",
+    "n_frames": 148,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "move to the brown box",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 41,
+      "DurationSeconds": 4.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "grasp the brown box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 42,
+      "EndFrameNum": 47,
+      "DurationSeconds": 0.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "move to the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 48,
+      "EndFrameNum": 134,
+      "DurationSeconds": 8.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "put the brown box in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 135,
+      "EndFrameNum": 147,
+      "DurationSeconds": 1.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

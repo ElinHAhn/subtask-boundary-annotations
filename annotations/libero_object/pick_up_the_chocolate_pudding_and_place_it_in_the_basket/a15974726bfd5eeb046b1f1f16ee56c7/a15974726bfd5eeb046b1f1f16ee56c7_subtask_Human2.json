@@ -1,0 +1,55 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "EpisodeID": "a15974726bfd5eeb046b1f1f16ee56c7",
+    "suite": "libero_object",
+    "episode_index": 1201,
+    "task_instruction": "pick up the chocolate pudding and place it in the basket",
+    "n_frames": 148,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "grasp the chocolate pudding",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 47,
+      "DurationSeconds": 4.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "move the chocolate pudding over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 48,
+      "EndFrameNum": 135,
+      "DurationSeconds": 8.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "release the chocolate pudding into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 136,
+      "EndFrameNum": 147,
+      "DurationSeconds": 1.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

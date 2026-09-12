@@ -1,0 +1,42 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_milk_and_place_it_in_the_basket",
+    "EpisodeID": "e0b354c044c0c7dec3d74544c1d88636",
+    "suite": "libero_object",
+    "episode_index": 1161,
+    "task_instruction": "pick up the milk and place it in the basket",
+    "n_frames": 139,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human1"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the milk carton",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 51,
+      "DurationSeconds": 5.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the milk carton into the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 52,
+      "EndFrameNum": 138,
+      "DurationSeconds": 8.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

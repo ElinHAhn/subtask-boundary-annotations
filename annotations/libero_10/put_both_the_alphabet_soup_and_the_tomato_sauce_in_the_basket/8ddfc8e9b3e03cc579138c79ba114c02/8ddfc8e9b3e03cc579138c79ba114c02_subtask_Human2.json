@@ -1,0 +1,94 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "EpisodeID": "8ddfc8e9b3e03cc579138c79ba114c02",
+    "suite": "libero_10",
+    "episode_index": 199,
+    "task_instruction": "put both the alphabet soup and the tomato sauce in the basket",
+    "n_frames": 250,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the alphabet soup can",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 53,
+      "DurationSeconds": 5.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "move the alphabet soup can over the basket",
+      "KorName": "",
+      "TaskActionType": "Reach",
+      "StartFrameNum": 54,
+      "EndFrameNum": 114,
+      "DurationSeconds": 6.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Release the alphabet soup can into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 115,
+      "EndFrameNum": 121,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Grasp the tomato sauce can",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 122,
+      "EndFrameNum": 187,
+      "DurationSeconds": 6.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Move the tomato sauce can over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 188,
+      "EndFrameNum": 236,
+      "DurationSeconds": 4.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 6,
+      "EngName": "Release the tomato sauce can into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 237,
+      "EndFrameNum": 249,
+      "DurationSeconds": 1.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "EpisodeID": "a1b570559c1744f2063d908cac1c5e36",
+    "suite": "libero_10",
+    "episode_index": 24,
+    "task_instruction": "put both the cream cheese box and the butter in the basket",
+    "n_frames": 241,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 67,
+      "DurationSeconds": 6.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the cream cheese box in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 68,
+      "EndFrameNum": 135,
+      "DurationSeconds": 6.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the butter",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 136,
+      "EndFrameNum": 189,
+      "DurationSeconds": 5.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the butter in the basket",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 190,
+      "EndFrameNum": 233,
+      "DurationSeconds": 4.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Final State / Retract",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 234,
+      "EndFrameNum": 240,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

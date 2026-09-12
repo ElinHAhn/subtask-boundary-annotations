@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "EpisodeID": "bc58c5db2128ff5e0c5ffe3a18319471",
+    "suite": "libero_10",
+    "episode_index": 113,
+    "task_instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "n_frames": 247,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the white mug",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 61,
+      "DurationSeconds": 6.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the white mug on the plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 62,
+      "EndFrameNum": 152,
+      "DurationSeconds": 9.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the chocolate pudding box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 153,
+      "EndFrameNum": 204,
+      "DurationSeconds": 5.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Move the chocolate pudding to the right of the plate",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 205,
+      "EndFrameNum": 246,
+      "DurationSeconds": 4.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

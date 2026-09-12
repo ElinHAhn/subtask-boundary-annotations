@@ -1,0 +1,81 @@
+{
+  "Task_Info": {
+    "TaskID": "turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "EpisodeID": "3157fa8215d35be37996a7b6505f1733",
+    "suite": "libero_10",
+    "episode_index": 153,
+    "task_instruction": "turn on the stove and put the moka pot on it",
+    "n_frames": 255,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Reach the stove knob",
+      "KorName": "",
+      "TaskActionType": "Reach",
+      "StartFrameNum": 0,
+      "EndFrameNum": 58,
+      "DurationSeconds": 5.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Rotate the stove knob to turn on the stove",
+      "KorName": "",
+      "TaskActionType": "Rotate",
+      "StartFrameNum": 59,
+      "EndFrameNum": 91,
+      "DurationSeconds": 3.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Release the stove knob",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 92,
+      "EndFrameNum": 98,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Grasp the moka pot",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 99,
+      "EndFrameNum": 195,
+      "DurationSeconds": 9.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Place the moka pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 196,
+      "EndFrameNum": 254,
+      "DurationSeconds": 5.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

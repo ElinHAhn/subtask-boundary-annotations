@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "EpisodeID": "ec4f817d9c2a4de999bd09696b648263",
+    "suite": "libero_10",
+    "episode_index": 274,
+    "task_instruction": "put the black bowl in the bottom drawer of the cabinet and close it",
+    "n_frames": 230,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the black bowl",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 90,
+      "DurationSeconds": 9.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "place the black bowl inside the bottom drawer",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 91,
+      "EndFrameNum": 154,
+      "DurationSeconds": 6.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the cabinet door",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 155,
+      "EndFrameNum": 197,
+      "DurationSeconds": 4.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Push the cabinet",
+      "KorName": "",
+      "TaskActionType": "Push",
+      "StartFrameNum": 198,
+      "EndFrameNum": 229,
+      "DurationSeconds": 3.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

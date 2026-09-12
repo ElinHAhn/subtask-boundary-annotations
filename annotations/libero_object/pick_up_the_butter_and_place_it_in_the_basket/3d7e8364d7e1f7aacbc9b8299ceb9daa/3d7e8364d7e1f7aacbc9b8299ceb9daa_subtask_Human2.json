@@ -1,0 +1,55 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_butter_and_place_it_in_the_basket",
+    "EpisodeID": "3d7e8364d7e1f7aacbc9b8299ceb9daa",
+    "suite": "libero_object",
+    "episode_index": 1158,
+    "task_instruction": "pick up the butter and place it in the basket",
+    "n_frames": 154,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "grasp the butter",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 58,
+      "DurationSeconds": 5.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "move the butter over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 59,
+      "EndFrameNum": 139,
+      "DurationSeconds": 8.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "release the butter over the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 140,
+      "EndFrameNum": 153,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

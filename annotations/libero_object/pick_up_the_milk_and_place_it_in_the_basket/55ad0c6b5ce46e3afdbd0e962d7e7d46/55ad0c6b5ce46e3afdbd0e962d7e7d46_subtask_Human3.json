@@ -1,0 +1,40 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_milk_and_place_it_in_the_basket",
+    "EpisodeID": "55ad0c6b5ce46e3afdbd0e962d7e7d46",
+    "suite": "libero_object",
+    "episode_index": 817,
+    "task_instruction": "pick up the milk and place it in the basket",
+    "n_frames": 143,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the red milk box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 48,
+      "DurationSeconds": 4.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the re milk box to the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 49,
+      "EndFrameNum": 142,
+      "DurationSeconds": 9.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

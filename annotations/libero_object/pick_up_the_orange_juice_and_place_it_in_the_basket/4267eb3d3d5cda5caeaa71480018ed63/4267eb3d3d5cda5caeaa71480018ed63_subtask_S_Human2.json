@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "EpisodeID": "4267eb3d3d5cda5caeaa71480018ed63",
+    "suite": "libero_object",
+    "episode_index": 1139,
+    "task_instruction": "pick up the orange juice and place it in the basket",
+    "n_frames": 129,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_vlm",
+    "Convention": "fine",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Move hand to the orange juice",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 0,
+      "EndFrameNum": 42,
+      "DurationSeconds": 4.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Grasp the orange juice",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 43,
+      "EndFrameNum": 49,
+      "DurationSeconds": 0.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Move the orange juice into the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 50,
+      "EndFrameNum": 121,
+      "DurationSeconds": 7.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Release the orange juice into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 122,
+      "EndFrameNum": 130,
+      "DurationSeconds": 0.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

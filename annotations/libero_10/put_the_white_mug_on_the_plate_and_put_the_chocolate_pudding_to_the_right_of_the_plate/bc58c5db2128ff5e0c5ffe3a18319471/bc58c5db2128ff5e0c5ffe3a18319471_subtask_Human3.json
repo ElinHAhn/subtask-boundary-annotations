@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "EpisodeID": "bc58c5db2128ff5e0c5ffe3a18319471",
+    "suite": "libero_10",
+    "episode_index": 113,
+    "task_instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "n_frames": 247,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick the white mug",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 61,
+      "DurationSeconds": 6.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "place the mug on the plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 62,
+      "EndFrameNum": 151,
+      "DurationSeconds": 9.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "pick the box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 152,
+      "EndFrameNum": 205,
+      "DurationSeconds": 5.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "place the box right of the plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 206,
+      "EndFrameNum": 246,
+      "DurationSeconds": 4.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

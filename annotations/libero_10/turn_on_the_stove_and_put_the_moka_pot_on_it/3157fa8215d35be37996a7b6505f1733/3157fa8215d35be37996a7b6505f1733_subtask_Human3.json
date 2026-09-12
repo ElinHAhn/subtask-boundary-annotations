@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "EpisodeID": "3157fa8215d35be37996a7b6505f1733",
+    "suite": "libero_10",
+    "episode_index": 153,
+    "task_instruction": "turn on the stove and put the moka pot on it",
+    "n_frames": 255,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "grasp the stove switch",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 62,
+      "DurationSeconds": 6.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "turn on the switch",
+      "KorName": "",
+      "TaskActionType": "Turn",
+      "StartFrameNum": 63,
+      "EndFrameNum": 101,
+      "DurationSeconds": 3.9,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "pick the pot",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 102,
+      "EndFrameNum": 207,
+      "DurationSeconds": 10.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "place the pot on the stove",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 208,
+      "EndFrameNum": 254,
+      "DurationSeconds": 4.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

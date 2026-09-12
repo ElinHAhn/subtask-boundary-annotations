@@ -1,0 +1,94 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "EpisodeID": "a1b570559c1744f2063d908cac1c5e36",
+    "suite": "libero_10",
+    "episode_index": 24,
+    "task_instruction": "put both the cream cheese box and the butter in the basket",
+    "n_frames": 241,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the cream cheese box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 67,
+      "DurationSeconds": 6.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Move the cream cheese box over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 68,
+      "EndFrameNum": 133,
+      "DurationSeconds": 6.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Release the cream cheese box into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 134,
+      "EndFrameNum": 143,
+      "DurationSeconds": 1.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Grasp the butter box",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 144,
+      "EndFrameNum": 189,
+      "DurationSeconds": 4.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 5,
+      "EngName": "Move the butter box over the basket",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 190,
+      "EndFrameNum": 230,
+      "DurationSeconds": 4.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 6,
+      "EngName": "Release the butter box into the basket",
+      "KorName": "",
+      "TaskActionType": "Release",
+      "StartFrameNum": 231,
+      "EndFrameNum": 240,
+      "DurationSeconds": 1.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

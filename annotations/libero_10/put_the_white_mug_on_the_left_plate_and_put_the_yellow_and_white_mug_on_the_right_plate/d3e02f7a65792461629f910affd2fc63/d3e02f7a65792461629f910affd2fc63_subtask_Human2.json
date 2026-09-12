@@ -1,0 +1,68 @@
+{
+  "Task_Info": {
+    "TaskID": "put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "EpisodeID": "d3e02f7a65792461629f910affd2fc63",
+    "suite": "libero_10",
+    "episode_index": 211,
+    "task_instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+    "n_frames": 277,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the white mug",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 0,
+      "EndFrameNum": 63,
+      "DurationSeconds": 6.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Place the white mug on the left plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 64,
+      "EndFrameNum": 139,
+      "DurationSeconds": 7.6,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Grasp the yellow and white mug",
+      "KorName": "",
+      "TaskActionType": "Grasp",
+      "StartFrameNum": 140,
+      "EndFrameNum": 222,
+      "DurationSeconds": 8.3,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "Place the yellow and white mug on the right plate",
+      "KorName": "",
+      "TaskActionType": "Place",
+      "StartFrameNum": 223,
+      "EndFrameNum": 276,
+      "DurationSeconds": 5.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

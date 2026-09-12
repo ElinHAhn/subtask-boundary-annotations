@@ -1,0 +1,3 @@
+# Byte-exact release: the annotations are checksummed in SHA256SUMS.txt, so no
+# end-of-line conversion may happen on checkout or commit, on any platform.
+* -text

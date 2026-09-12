@@ -1,0 +1,55 @@
+{
+  "Task_Info": {
+    "TaskID": "pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "EpisodeID": "41db5f8ae6c7731015366f41bb1c38ff",
+    "suite": "libero_10",
+    "episode_index": 209,
+    "task_instruction": "pick up the book and place it in the back compartment of the caddy",
+    "n_frames": 169,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct",
+    "Convention": "absorb",
+    "Annotator": "Human2"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "Grasp the book",
+      "KorName": "",
+      "TaskActionType": "Reach",
+      "StartFrameNum": 0,
+      "EndFrameNum": 49,
+      "DurationSeconds": 5.0,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "Move the book above the back compartment of the caddy",
+      "KorName": "",
+      "TaskActionType": "Move",
+      "StartFrameNum": 50,
+      "EndFrameNum": 154,
+      "DurationSeconds": 10.5,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "Insert the book into the back compartment of the caddy",
+      "KorName": "",
+      "TaskActionType": "Insert",
+      "StartFrameNum": 155,
+      "EndFrameNum": 168,
+      "DurationSeconds": 1.4,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}

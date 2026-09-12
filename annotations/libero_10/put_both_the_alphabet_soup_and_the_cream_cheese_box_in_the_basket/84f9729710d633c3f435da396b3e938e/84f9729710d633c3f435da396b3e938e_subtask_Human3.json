@@ -1,0 +1,66 @@
+{
+  "Task_Info": {
+    "TaskID": "put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "EpisodeID": "84f9729710d633c3f435da396b3e938e",
+    "suite": "libero_10",
+    "episode_index": 63,
+    "task_instruction": "put both the alphabet soup and the cream cheese box in the basket",
+    "n_frames": 248,
+    "fps": 10.0,
+    "ReferenceLabel": "qwen_dct"
+  },
+  "SubTasks": [
+    {
+      "SubtaskID": 1,
+      "EngName": "pick up the blue can",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 0,
+      "EndFrameNum": 66,
+      "DurationSeconds": 6.7,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 2,
+      "EngName": "put the can in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 67,
+      "EndFrameNum": 128,
+      "DurationSeconds": 6.2,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 3,
+      "EngName": "pick up the box",
+      "KorName": "",
+      "TaskActionType": "Pick",
+      "StartFrameNum": 129,
+      "EndFrameNum": 189,
+      "DurationSeconds": 6.1,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    },
+    {
+      "SubtaskID": 4,
+      "EngName": "put the box in the basket",
+      "KorName": "",
+      "TaskActionType": "Put",
+      "StartFrameNum": 190,
+      "EndFrameNum": 247,
+      "DurationSeconds": 5.8,
+      "GripperState": null,
+      "KorDescription": "",
+      "EngDescription": "",
+      "Detailed_Description": ""
+    }
+  ]
+}
